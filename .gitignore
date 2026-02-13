@@ -1,0 +1,62 @@
+# -------------------------------------
+# Python bytecode & cache
+# -------------------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# -------------------------------------
+# Virtual environments
+# -------------------------------------
+venv/
+.env/
+*.env
+
+# -------------------------------------
+# Jupyter
+# -------------------------------------
+.ipynb_checkpoints/
+
+# -------------------------------------
+# OS / Editor files
+# -------------------------------------
+*.DS_Store
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# -------------------------------------
+# Build / packaging
+# -------------------------------------
+build/
+dist/
+*.egg-info/
+
+# -------------------------------------
+# Results / Logs / Data (if used)
+# Uncomment or add if needed
+# results/
+# logs/
+# data/
+# *.csv
+# *.npy
+# *.npz
+# *.pkl
+
+# -------------------------------------
+# Conda environment backup files
+# -------------------------------------
+*.lock
+
+config_secrets.json
+curves_5groups_sigma0_tuned/
+entropy_gauss_viz_32x32/
+paper_figs_hw/
+results_hw/
+summary_winners_5groups_best_sigma0/
+classes_2d.csv
+results_dft_vs_pca_vs_rp_real_2D/
+robustness_all_groups_best_sigma0/
